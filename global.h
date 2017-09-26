@@ -9,6 +9,15 @@
 #include <dirent.h>
 #include <time.h>
 #include <grp.h>
+#include <fcntl.h>
+#include <sys/utsname.h>
+#include <errno.h>
 
 #define Delim " \t\n\r\a"
 
+// typedef struct node {
+// 	int proc_no;
+// 	pid_t proc_id;
+// 	char pname[1000];
+// 	struct node * next;
+// } Node;
